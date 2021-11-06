@@ -29,6 +29,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+
+    color: white;
+    background-color: #005ff8;
+    padding: 6px 32px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+
 a {
 
     text-decoration: none;
@@ -101,8 +111,9 @@ h3 {
 }
 
 .hero-main-text {
-
+    padding-right: 20px;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .hero-secondary-text {
@@ -194,3 +205,51 @@ h3 {
     color: #1F2937;
 }
 
+.wrapper-call-to-action {
+    padding: 10% 20% 10% 20%;
+
+}
+
+.call-to-action-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10% 30px 10%;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.call-to-action-container-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.call-to-action-button {
+    border: 1px solid white;
+    margin-top: 0px;
+}
+
+.call-to-action-button:hover {
+    border: 1px solid white;
+    margin-top: 0px;
+}
+
+
+.call-to-action-main-text {
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.call-to-action-secondary-text {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 25px 25px;
+    align-items: center;
+    justify-content: center;
+}
