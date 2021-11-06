@@ -167,5 +167,30 @@ h3 {
     text-align: center;
 }
 
-/* Delete unnecesary code and add borders */
+.wrapper-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 20% 10% 20%;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 350;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
 
